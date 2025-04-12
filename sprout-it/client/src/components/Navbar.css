@@ -1,0 +1,33 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #699d4c;
+  padding: 1rem 2rem;
+  color: white;
+  position: fixed;  /* Keep the navbar at the top */
+  top: 0;           /* Align it at the very top */
+  left: 0;          /* Align it to the left side */
+  right: 0;
+}
+
+.name {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.nav-links a:hover {
+  color: #f6bdd1;
+}

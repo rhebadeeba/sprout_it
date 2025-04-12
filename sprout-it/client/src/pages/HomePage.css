@@ -1,0 +1,36 @@
+.home-page {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.sprout-img {
+    height: 300px;
+    margin-top: -50px;
+}
+
+.button {
+    height: 50px;
+    border: None;
+    color: #699d4c;
+    background: none;
+    outline: none
+}
+
+.button:hover {
+    height: 50px;
+    border: none;
+    color: #486d35;
+    background: none;
+    outline: none
+}
+
+.button:active {
+    height: 50px;
+    outline: none;
+    border: none;
+    color: #486d35;
+    background: none;
+}

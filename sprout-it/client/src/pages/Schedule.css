@@ -1,0 +1,11 @@
+.logo {
+  height: 200px;
+  margin-top: -5px;
+}
+
+.schedule {
+  display: flex;
+  justify-content: center; /* horizontal center */
+  align-items: center; /* vertical center */
+  flex-direction: column;
+}
